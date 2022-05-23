@@ -1,0 +1,28 @@
+.myframe {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  justify-content: center;
+}
+
+aside,
+article,
+footer {
+  /* border: 1px solid black; */
+  width: 100%;
+}
+
+aside,
+article,
+.myframe {
+  min-height: 100vh;
+}
+
+article {
+  background: rgb(246, 246, 246);
+  margin-top: 2rem;
+}
+
+footer {
+  min-height: 50vh;
+  background-color: rgb(54, 54, 54);
+}

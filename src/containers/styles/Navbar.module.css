@@ -1,0 +1,22 @@
+.mynav {
+  height: 2rem;
+  width: 100%;
+  align-items: center;
+  background-color: blue;
+  color: white;
+  font-weight: 550;
+  justify-content: center;
+  position: fixed;
+}
+
+.myhandles,
+.mynav {
+  display: flex;
+}
+
+.myhandles {
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 12rem;
+  justify-content: space-evenly;
+}

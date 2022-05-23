@@ -1,0 +1,41 @@
+.sidebar {
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+
+.sidebar > a,
+.sidebar {
+  display: flex;
+}
+
+.sidebar > h3,
+.sidebar > a {
+  /* border: 1px solid black; */
+  text-align: left;
+  width: 9rem;
+  margin: 0 0 1rem 2rem;
+}
+
+.sidebar > a {
+  text-decoration: none;
+  font-size: 17px;
+  justify-content: space-between;
+  height: 2.2rem;
+  align-items: center;
+  padding: 0 10px 0 10px;
+  color: black;
+}
+
+.sidebar > a:hover {
+  color: blue;
+  border: 1px solid blue;
+  border-radius: 20px;
+}
+
+.sidebar > h3 {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: gray;
+}
